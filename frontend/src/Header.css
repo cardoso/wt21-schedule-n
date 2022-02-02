@@ -1,0 +1,218 @@
+  .header h1 {
+    color: #929094;
+    font-size: 24px;
+  }
+
+  .header h2 {
+    font-weight: 500;
+    font-size: 40px;
+  }
+
+  @media (min-width: 768px) {
+  
+    .header {
+      display: flex;
+      flex-wrap: row wrap;
+      justify-content: space-evenly;
+      height: 122px;
+    }
+  
+    .headerItem1 {
+      align-self: center;
+    }
+  
+    .headerItem2 {
+      align-self: center;
+    } 
+  }
+
+  .popUp {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 196px;
+    background-color: #EFEFFE;
+    width: 845px;
+    height: 530px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    color: #47464A;
+    font-size: 30px;
+    padding: 20px;
+    z-index: 4; 
+   }
+
+   .popUpContainer {
+     align-self: flex-end;
+   }
+
+   .popUp button {
+    border-radius: 20px;
+    background-color: #47464A;
+    border: solid #47464A;
+    color: #FFFFFF;
+   }
+
+   .overlay {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 3;
+}
+
+.signUpContainer {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 135px;
+  align-items: center;
+  justify-content: flex-start;
+  background: #FDF6F4;
+  box-shadow: 0px 0.69px 4.14px 1.38px rgba(0, 0, 0, 0.16);
+  border-radius: 16px; 
+  width: 552px;
+  height: 670px;
+  gap: 1px;
+}
+
+.signUp {
+  position: fixed;
+  align-self: flex-end;
+  margin: 20px 20px;
+}
+
+.signUpForm {
+  display: flex;
+  flex-direction: column;
+  width: 414;
+}
+
+.signUpConnect {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 200px;
+  margin-top: 20px;
+}
+
+.loginConnect {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 250px;
+  margin-top: 20px;
+}
+
+.signUpContainer i {
+  position: absolute;
+  top: 48%;
+  right: 16%;
+}
+
+.signUpContainer i {
+  position: absolute;
+  top: 34.5%;
+  right: 16%;
+}
+
+.eye {
+  position: absolute;
+  top: 48%;
+  right: 16%;
+}
+
+.signUpContainer h1 {
+  text-align: center;
+  color: #4C57A9;
+  font-size: 38px;
+  font-weight: 600;
+  margin: 35px 0 0 0;
+}
+
+.signUpContainer p {
+  color: #838383;
+  font-size: 14px;
+}
+
+.hrSec {
+  width: 414px;
+  text-align: center;
+  color: #838383;
+  font-weight: bold;
+}
+
+.hrSec hr {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.signUpForm input[type="text"] {
+  color: '#FFFFFF';
+  font-family: inherit;
+  padding: 14px 20px 14px 20px;
+  border: 1px solid #838383;
+  font-size: 14px;
+  border-radius: 11px;
+  margin: 0;
+}
+
+.signUpForm input[type="password"] {
+  color: '#FFFFFF';
+  font-family: inherit;
+  padding: 14px 20px 14px 20px;
+  border: 1px solid #838383;
+  font-size: 14px;
+  border-radius: 11px;
+}
+
+.signUpForm input[type="password"]:focus {
+  outline: 0 none;
+}
+
+.signUpForm label {
+  display: block;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: left;
+  margin-bottom: 7px;
+  margin-top: 25px;
+}
+
+.accountButton {
+  background-color: #4c57a9;
+  border: 2px solid #4c57a9;
+  border-radius: 11px;
+  color: #ffffff;
+  font-family: "Josefin Sans";
+  font-size: 14px;
+  height: 45px;
+  width: 414px;
+  margin-top: 5px;
+}
+
+.externalButton {
+  background-color: #FFFFFF;
+  border: 1px solid #1B1B1F;
+  border-radius: 11px;
+  color: #1B1B1F;
+  font-family: "Josefin Sans";
+  font-size: 14px;
+  height: 45px;
+  width: 414px;
+}
